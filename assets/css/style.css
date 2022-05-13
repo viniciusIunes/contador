@@ -1,0 +1,45 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 62, 5%;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #363636;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #808080;
+  background-color: #dbdbdb;
+}
+
+button {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: 2px solid #363636;
+  background-color: #b5b5b5;
+  color: #363636;
+  font-size: 16pt;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #808080;
+  transition: 200ms;
+}
+
+#counter button,
+span {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
